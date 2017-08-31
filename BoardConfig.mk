@@ -17,16 +17,16 @@
 # Inherit from common
 -include device/intel/cherrytrail-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/intel/teclast/x80plus_h5c5
+DEVICE_PATH := device/intel/teclast/x80pro_e3e9
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := cht_cr_mrd,x80plus_h5c5
+TARGET_OTA_ASSERT_DEVICE := cht_cr_mrd,x80pro_e3e9
 
 # Kernel
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/kernel
 
 # Partition sizes
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 8589934592
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 7516192768
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop

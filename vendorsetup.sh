@@ -1,1 +1,1 @@
-add_lunch_combo cm_x80plus_h5c5-userdebug
+add_lunch_combo cm_x80pro_e3e9-userdebug

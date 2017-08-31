@@ -1,5 +1,5 @@
 # Display
-ro.sf.lcd_density=213
+ro.sf.lcd_density=280
 
 # HDMI
 hwc.video.extmode.enable=0
